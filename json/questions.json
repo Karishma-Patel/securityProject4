@@ -1,0 +1,78 @@
+
+{
+	"q1": {
+  	"question": "What are rootkits?",
+    "answer_choices": ["flaws in pieces of software code", "allow remote access or control of a computer by a third party", "automatically deliver advertisements to host computers", "encrypts sensitive data"],
+    "correct_answer": "allow remote access or control of a computer by a third party"
+  },
+  "q2": {
+  	"question": "What are black hat attackers?",
+    "answer_choices": ["write malware to break into computer networks","ethical hackers", "hackers that wear black hats","hackers that focus on adware"],
+    "correct_answer": "write malware to break into computer networks"
+  },
+  "q3": {
+  	"question": "How do polymorphic viruses prevent detection?",
+    "answer_choices": ["it changes its code each time an infected file is executed", "it deletes itself as soon as it is executed", "it deletes and reinstalls itself once it is safe", "it doesn't do anything to prevent detection"],
+    "correct_answer": "it changes its code each time an infected file is executed"
+  },
+  "q4": {
+  	"question": "What is typically not a sign of a computer virus?",
+    "answer_choices": ["Frequent popup windows", "Unusually slow computer performance", "Unknown programs that start up when you turn on your computer", "A low battery warning"],
+    "correct_answer": "A low battery warning"
+  },
+  "q5": {
+  	"question": "What's not a way that malware spreads?",
+    "answer_choices": ["Through drive-by download", "Through a backdoor", "Through the laptop camera", "Through a vulnerability"],
+    "correct_answer": "Through the laptop camera"
+  },
+  "q6": {
+  	"question": "What is a 0-day attack?",
+    "answer_choices": ["An attack not publicly reported or announced before becoming active", "An attack that occurs on the first day of the year", "An attack that lasts only a couple seconds", "An attack that happens on Black Friday"],
+    "correct_answer": "An attack not publicly reported or announced before becoming active"
+  },
+  "q7": {
+  	"question": "What are botnets?",
+    "answer_choices": ["A number of Internet connected devices that are running one or more bots", "Robotic nets that catch digital fish", "Computers made before 1980", "Computers that are victims to a sequence of malware attacks"],
+    "correct_answer": "A number of Internet connected devices that are running one or more bots"
+  },
+  "q8": {
+  	"question": "In 2011, what percentage of malware were Trojan Horses?",
+    "answer_choices": ["25%","70%","98%","50%"],
+    "correct_answer": "70%"
+  },
+  "q9": {
+  	"question": "",
+    "answer_choices": ["","","",""],
+    "correct_answer": ""
+  },
+  "q10": {
+  	"question": "",
+    "answer_choices": ["","","",""],
+    "correct_answer": ""
+  },
+  "q11": {
+  	"question": "",
+    "answer_choices": ["","","",""],
+    "correct_answer": ""
+  },
+  "q12": {
+  	"question": "",
+    "answer_choices": ["","","",""],
+    "correct_answer": ""
+  },
+  "q13": {
+  	"question": "What is a worm?",
+    "answer_choices": ["","","",""],
+    "correct_answer": ""
+  },
+  "q14": {
+  	"question": "What is a worm?",
+    "answer_choices": ["","","",""],
+    "correct_answer": ""
+  },
+  "q15": {
+  	"question": "What is a worm?",
+    "answer_choices": ["","","",""],
+    "correct_answer": ""
+  }
+}
