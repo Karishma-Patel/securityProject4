@@ -1,3 +1,4 @@
+
 [
 	{
   	"question": "What are rootkits?",
@@ -70,8 +71,8 @@
     "correct_answer": "Updating your software frequently"
   },
   {
-  	"question": "",
-    "answer_choices": ["","","",""],
-    "correct_answer": ""
+  	"question": "Are Apple MACs malware resistant",
+    "answer_choices": ["Yes, because they are built with strong security", "No, there are just more Windows targeted malware", "Yes, malware doens't exist", "Yes, MACs have unbreakable firewalls"],
+    "correct_answer": "No, there are just more Windows targeted malware"
   }
 ]
