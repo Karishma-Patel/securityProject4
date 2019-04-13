@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter, Route } from 'react-router-dom';
-import { Container, Header, Image } from 'semantic-ui-react';
+import { Container, Header, Image, Modal } from 'semantic-ui-react';
 import Home from '../Home/Home';
 import Question from '../Question/Question';
 import AnswerChoice from '../AnswerChoice/AnswerChoice';
@@ -78,12 +78,36 @@ class App extends Component {
 		}
 	}
 
+	renderModal() {
+
+	}
+
   render() {
     return (
       <div className="App">
-      	<Image className="meme-t" src={FreeAImg}/>
-      	<Image className="meme-l" src={TestBankImg}/>
-      	<Image className="meme-r" src={TestBankImg}/>
+      	<a className="meme-t" href="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&autoplay=1" target="_blank">
+      		<Image src={FreeAImg}/>
+      	</a>
+      	<Modal trigger={<Image className="meme-l" src={TestBankImg}/>}>
+			    <Modal.Content image>
+			      <Modal.Description>
+			        <Header as="h1">WARNING!</Header>
+			        <Header as="h2"><i>YOUR COMPUTER MAY BE INFECTED!!!</i></Header>
+			        <p id="p-1">
+			        	System Detected 2 Potentially Malicious Viruses: <b>Rootkit.Omnibus.Spy</b> and&nbsp;
+			        	<b>Trojan.Octane.FakeAVC_Download</b>. Your Personal and Financial Information <br/><b>MAY NOT BE SAFE</b>!
+			       	</p>
+			       	<p id="p-2">
+			       		To Remove Viruses, Call Tech Support Now:
+			       	</p>
+			       	<Header as="h3">(212) 944-0400</Header>
+			      </Modal.Description>
+			    </Modal.Content>
+			  </Modal>
+
+      	<a className="meme-r" href="https://www.youtube.com/embed/ZBbxDbD_mOI?rel=0&autoplay=1" target="_blank">
+      		<Image src={TestBankImg}/>
+      	</a>
       	<Container>
       		<Header as="h3">THE KRYP QUIZ</Header>
       		<div className="stats">

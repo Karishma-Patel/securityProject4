@@ -63,6 +63,7 @@
   top: 0;
   height: 100vh;
   border-right: 1px solid #eee;
+  cursor: pointer;
 }
 
 .App > .meme-r {
@@ -71,4 +72,46 @@
   top: 0;
   height: 100vh;
   border-left: 1px solid #eee;
+}
+
+.ui.modal {
+  height: 100vh !important;
+  width: 100vw !important;
+  font-family: serif;
+}
+
+.ui.modal .description {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.ui.modal .description h1 {
+  font-size: 13rem;
+  color: #db1a1a;
+  font-family: serif !important;
+}
+
+.ui.modal .description h2 {
+  font-size: 4.5rem;
+  color: #db1a1a;
+  font-family: serif !important;
+}
+
+.ui.modal .description #p-1 {
+  margin: auto;
+  font-size: 2rem;
+  width: 70rem;
+}
+
+.ui.modal .description #p-2 {
+  margin: auto;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.ui.modal .description h3 {
+  margin: 0;
+  font-size: 4rem;
+  color: #0d9b20;
+  font-family: serif !important;
 }
