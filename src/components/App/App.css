@@ -1,0 +1,51 @@
+.App {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App > .container {
+  height: 90vh;
+  padding: 5rem 2rem;
+}
+
+.App .stats {
+  height: 3rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.App .score {
+  float: left;
+}
+
+.App .correct {
+  float: right;
+}
+
+.App .quiz-end {
+  margin: rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App h3 {
+  letter-spacing: 1px;
+}
+
+.App h5 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 2rem;
+  color: gray !important;
+  font-weight: 400 !important;
+}

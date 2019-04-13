@@ -1,0 +1,34 @@
+h4 {
+	font-weight: 400 !important;
+	letter-spacing: 2px;
+}
+
+h1 {
+	margin-top: 0 !important;
+}
+
+.answer-choices {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+.ui.button.answer-choice {
+	background: black;
+	color: white;
+	height: 12rem;
+	width: 45%;
+	margin: 0.5rem;
+	font-size: 1.25rem;
+	word-wrap: break-word;
+	float: left;
+	border-radius: 20px;
+}
+
+.ui.button.answer-choice.correct {
+	background: green;
+}
+
+.ui.button.answer-choice.answered {
+	background: red;
+}
