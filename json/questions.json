@@ -1,0 +1,78 @@
+
+[
+	{
+  	"question": "What are rootkits?",
+    "answer_choices": ["flaws in pieces of software code", "allow remote access or control of a computer by a third party", "automatically deliver advertisements to host computers", "encrypts sensitive data"],
+    "correct_answer": "allow remote access or control of a computer by a third party"
+  },
+  {
+  	"question": "What are black hat attackers?",
+    "answer_choices": ["write malware to break into computer networks","ethical hackers", "hackers that wear black hats","hackers that focus on adware"],
+    "correct_answer": "write malware to break into computer networks"
+  },
+  {
+  	"question": "How do polymorphic viruses prevent detection?",
+    "answer_choices": ["it changes its code each time an infected file is executed", "it deletes itself as soon as it is executed", "it deletes and reinstalls itself once it is safe", "it doesn't do anything to prevent detection"],
+    "correct_answer": "it changes its code each time an infected file is executed"
+  },
+  {
+  	"question": "What is typically not a sign of a computer virus?",
+    "answer_choices": ["Frequent popup windows", "Unusually slow computer performance", "Unknown programs that start up when you turn on your computer", "A low battery warning"],
+    "correct_answer": "A low battery warning"
+  },
+  {
+  	"question": "What's not a way that malware spreads?",
+    "answer_choices": ["Through drive-by download", "Through a backdoor", "Through the laptop camera", "Through a vulnerability"],
+    "correct_answer": "Through the laptop camera"
+  },
+  {
+  	"question": "What is a 0-day attack?",
+    "answer_choices": ["An attack not publicly reported or announced before becoming active", "An attack that occurs on the first day of the year", "An attack that lasts only a couple seconds", "An attack that happens on Black Friday"],
+    "correct_answer": "An attack not publicly reported or announced before becoming active"
+  },
+  {
+  	"question": "What are botnets?",
+    "answer_choices": ["A number of Internet connected devices that are running one or more bots", "Robotic nets that catch digital fish", "Computers made before 1980", "Computers that are victims to a sequence of malware attacks"],
+    "correct_answer": "A number of Internet connected devices that are running one or more bots"
+  },
+  {
+  	"question": "In 2011, what percentage of malware were Trojan Horses?",
+    "answer_choices": ["25%","70%","98%","50%"],
+    "correct_answer": "70%"
+  },
+  {
+  	"question": "What are worms?",
+    "answer_choices": ["Standalone software that replicates and infects specific files that are already present on a computer", "A long squiggly thing", "A piece of software that logs keystrokes", "A piece of software that collects information about a system and sends it to attackers"],
+    "correct_answer": "Standalone software that replicates and infects specific files that are already present on a computer"
+  },
+  {
+  	"question": "Why is adware different from spyware?",
+    "answer_choices": ["Adware's purpose is to display ads, while spyware's purpose is to collect information", "They do the same thing- they're not different", "Adware helps advertising firms create ads while spyware helps advertising firms track internet visitors", "Spyware is not a computer security element"],
+    "correct_answer": "Adware's purpose is to display ads, while spyware's purpose is to collect information"
+  },
+  {
+  	"question": "What is not a type of malware?",
+    "answer_choices": ["Virus", "Worm", "Zombie", "Vampire"],
+    "correct_answer": "Vampire"
+  },
+  {
+  	"question": "What is a zombie?",
+    "answer_choices": ["code that doesn't work", "old code that is being reused", "unreachable code", "a compromised computer"],
+    "correct_answer": "a compromised computer"
+  },
+  {
+  	"question": "How can you get viruses on your computer?",
+    "answer_choices": ["Opening unknown attachments to your emails", "Yelling COME AT ME BRO", "Downloading Google Chrome from Google's official website", "Restarting your computer"],
+    "correct_answer": "Opening unknown attachments to your emails"
+  },
+  {
+  	"question": "What is a way to protect yourself from malware attacks?",
+    "answer_choices": ["Using http websites", "Updating your software frequently", "downloading unknown packages", "storing your private data in a public github"],
+    "correct_answer": "Updating your software frequently"
+  },
+  {
+  	"question": "Are Apple MACs malware resistant",
+    "answer_choices": ["Yes, because they are built with strong security", "No, there are just more Windows targeted malware", "Yes, malware doens't exist", "Yes, MACs have unbreakable firewalls"],
+    "correct_answer": "No, there are just more Windows targeted malware"
+  }
+]
