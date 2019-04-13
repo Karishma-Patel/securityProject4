@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/henceagrin36/security_project/precache-manifest.337db9fbb5ffe2cb1cb78fbd3865eb64.js"
+  "/Karishma-Patel/securityProject4/precache-manifest.4864d8d26b482ec787faef77dd9eaf65.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/henceagrin36/security_project/index.html", {
+workbox.routing.registerNavigationRoute("/Karishma-Patel/securityProject4/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
