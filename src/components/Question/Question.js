@@ -15,7 +15,6 @@ class Question extends Component {
 
   render() {
   	const question = this.props.question;
-  	console.log(question);
   	const answered = this.props.answered;
 
     return (

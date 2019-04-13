@@ -6,6 +6,8 @@ import Home from '../Home/Home';
 import Question from '../Question/Question';
 import AnswerChoice from '../AnswerChoice/AnswerChoice';
 import QuestionData from '../../questions.json';
+import FreeAImg from '../../assets/free_a.png';
+import TestBankImg from '../../assets/test_bank.png';
 import './App.css';
 
 class App extends Component {
@@ -49,7 +51,7 @@ class App extends Component {
 		if (this.state.correct > 10) {
 			return "https://media.giphy.com/media/pHZdGyFNp5sUXq4jp5/source.mp4";
 		} else if (this.state.correct > 5) {
-			return "https://media.giphy.com/media/l0Iy89GffSH7LVmne/source.mp4";
+			return "https://media.giphy.com/media/l0Iy89GffSH7LVmne/source.gif";
 		} else {
 			return "https://media.giphy.com/media/3o7bu7cXrxi1Z3Cp44/source.gif"
 		}
@@ -58,7 +60,7 @@ class App extends Component {
 	selectQuestion() {
 		if (this.state.question_id >= this.state.total) {
 			return (
-				<div class="quiz-end">
+				<div className="quiz-end">
 					<Header as="h1">Congrats! You've reached the end of the quiz.</Header>
 					<Image src={this.selectImage()} size="medium"/>
 				</div>
@@ -79,6 +81,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      	<Image className="meme-t" src={FreeAImg}/>
+      	<Image className="meme-l" src={TestBankImg}/>
+      	<Image className="meme-r" src={TestBankImg}/>
       	<Container>
       		<Header as="h3">THE KRYP QUIZ</Header>
       		<div className="stats">

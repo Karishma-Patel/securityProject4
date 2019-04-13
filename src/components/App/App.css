@@ -8,7 +8,9 @@
 }
 
 .App > .container {
+  margin-top: 4rem;
   height: 90vh;
+  width: 70vw !important;
   padding: 5rem 2rem;
 }
 
@@ -18,7 +20,7 @@
   font-weight: 400;
   letter-spacing: 2px;
   margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .App .score {
@@ -30,7 +32,6 @@
 }
 
 .App .quiz-end {
-  margin: rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,4 +49,26 @@
   bottom: 2rem;
   color: gray !important;
   font-weight: 400 !important;
+}
+
+.App > .meme-t {
+  position: absolute !important;
+  top: 0;
+  margin: auto;
+}
+
+.App > .meme-l {
+  position: absolute !important;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  border-right: 1px solid #eee;
+}
+
+.App > .meme-r {
+  position: absolute !important;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  border-left: 1px solid #eee;
 }
