@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Karishma-Patel/securityProject4/precache-manifest.ce08d958e224888dfae99cd26a068c17.js"
+  "/Karishma-Patel/securityProject4/precache-manifest.9acba1618e85a504ddb5d7e974c40f34.js"
 );
 
 workbox.clientsClaim();
