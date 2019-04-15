@@ -8,6 +8,7 @@ import AnswerChoice from '../AnswerChoice/AnswerChoice';
 import QuestionData from '../../questions.json';
 import FreeAImg from '../../assets/free_a.png';
 import TestBankImg from '../../assets/test_bank.png';
+import WarningImg from '../../assets/warning.png';
 import './App.css';
 
 class App extends Component {
@@ -51,7 +52,7 @@ class App extends Component {
 		if (this.state.correct > 10) {
 			return "https://media.giphy.com/media/pHZdGyFNp5sUXq4jp5/source.mp4";
 		} else if (this.state.correct > 5) {
-			return "https://media.giphy.com/media/l0Iy89GffSH7LVmne/source.gif";
+			return "https://media.giphy.com/media/l0Iy89GffSH7LVmne/source.mp4";
 		} else {
 			return "https://media.giphy.com/media/3o7bu7cXrxi1Z3Cp44/source.gif"
 		}
@@ -88,19 +89,25 @@ class App extends Component {
       	<a className="meme-t" href="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&autoplay=1" target="_blank">
       		<Image src={FreeAImg}/>
       	</a>
-      	<Modal trigger={<Image className="meme-l" src={TestBankImg}/>}>
+      	<Modal trigger={<Image className="meme-l" src={TestBankImg}/>} closeOnEscape={false}>
 			    <Modal.Content image>
 			      <Modal.Description>
-			        <Header as="h1">WARNING!</Header>
+			      	<div className="warning">
+				      	<Image src={WarningImg}/>
+				        <Header as="h1">WARNING!</Header>
+				      </div>
 			        <Header as="h2"><i>YOUR COMPUTER MAY BE INFECTED!!!</i></Header>
 			        <p id="p-1">
 			        	System Detected 2 Potentially Malicious Viruses: <b>Rootkit.Omnibus.Spy</b> and&nbsp;
 			        	<b>Trojan.Octane.FakeAVC_Download</b>. Your Personal and Financial Information <br/><b>MAY NOT BE SAFE</b>!
 			       	</p>
+			       	<Header as="h4"><b>YOU SHOULD TAKE ACTION IMMEDIATELY!!!</b></Header>
 			       	<p id="p-2">
 			       		To Remove Viruses, Call Tech Support Now:
 			       	</p>
 			       	<Header as="h3">(212) 944-0400</Header>
+			       	<p id="p-3"><i>(High Priority Virus Removal Call Line)</i></p>
+
 			      </Modal.Description>
 			    </Modal.Content>
 			  </Modal>
@@ -109,7 +116,7 @@ class App extends Component {
       		<Image src={TestBankImg}/>
       	</a>
       	<Container>
-      		<Header as="h3">THE KRYP QUIZ</Header>
+      		<Header as="h3"><a href="/">THE KRYP QUIZ</a></Header>
       		<div className="stats">
       			<div className="score">
       				{"SCORE: " + this.state.score}

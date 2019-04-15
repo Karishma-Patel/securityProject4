@@ -2,14 +2,11 @@
   height: 100%;
   width: 100%;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .App > .container {
   margin-top: 4rem;
-  height: 90vh;
+  height: 90%;
   width: 70vw !important;
   padding: 5rem 2rem;
 }
@@ -54,6 +51,8 @@
 .App > .meme-t {
   position: absolute !important;
   top: 0;
+  left: 50%;
+  transform: translate(-50%);
   margin: auto;
 }
 
@@ -61,7 +60,7 @@
   position: absolute !important;
   left: 0;
   top: 0;
-  height: 100vh;
+  height: 100%;
   border-right: 1px solid #eee;
   cursor: pointer;
 }
@@ -70,26 +69,76 @@
   position: absolute !important;
   right: 0;
   top: 0;
-  height: 100vh;
+  min-height: 100vh !important;
   border-left: 1px solid #eee;
+  cursor: pointer;
+}
+
+.App > .meme-r .ui.image { 
+  height: 100vh !important;
 }
 
 .ui.modal {
   height: 100vh !important;
   width: 100vw !important;
   font-family: serif;
+  padding: 0 !important;
+}
+
+.ui.modal .image.content {
+  padding: 0;
 }
 
 .ui.modal .description {
+  height: 100vh;
   text-align: center;
   word-wrap: break-word;
+  padding-top: 2%;
+  border-top: 2vh solid #db1a1a;
+  border-bottom: 2vh solid #db1a1a;
+  border-left: 5vw solid #db1a1a;
+  border-right: 5vw solid #db1a1a;
+
+}
+
+.ui.modal .description .warning {
+  display: inline-flex;
+}
+
+.ui.modal .description .warning img {
+  height: 13rem;
+  margin: auto;
+  margin-right: 5rem;
 }
 
 .ui.modal .description h1 {
   font-size: 13rem;
-  color: #db1a1a;
   font-family: serif !important;
+  animation: blinkingText 1s infinite;
 }
+
+@keyframes blinkingText {
+    0% {
+      color: rgba(219,26,26, 1);
+    }
+
+    49% {
+      color: rgba(219,26,26, 0.9);
+    }
+
+    50% {
+      color: rgba(219,26,26, 0.2);
+    }
+
+    99% {
+      color: rgba(219,26,26, 0.9);
+    }
+
+    100% {
+      color: rgba(219,26,26, 1);
+    }
+}
+
 
 .ui.modal .description h2 {
   font-size: 4.5rem;
@@ -105,8 +154,14 @@
 
 .ui.modal .description #p-2 {
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: 2rem;
+}
+
+.ui.modal .description #p-3 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: #db1a1a;
 }
 
 .ui.modal .description h3 {
@@ -114,4 +169,19 @@
   font-size: 4rem;
   color: #0d9b20;
   font-family: serif !important;
+}
+
+.ui.modal .description h4 {
+  letter-spacing: 0;
+  margin: 0;
+  margin-top: 3%;
+  font-size: 3rem;
+  color: #db1a1a;
+  font-family: serif !important;
+}
+
+
+.ui.container h3 a {
+  color: black !important;
+  text-decoration: none;
 }
