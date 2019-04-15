@@ -25,6 +25,10 @@ class App extends Component {
 		this.updateScore = this.updateScore.bind(this);
 	}
 
+	componentDidMount() {
+    document.title = "the kryp quiz";
+  }
+
 	updateScore(isCorrect) {
 		this.setState({
 			answered: true
